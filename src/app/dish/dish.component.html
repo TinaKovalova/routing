@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let d of dishes">
+   <a routerLink='/description/{{d.id}}'>{{d.title}}</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
